@@ -455,8 +455,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 332007374}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.58, y: -3.39, z: 0}
-  m_LocalScale: {x: 44.911125, y: 1, z: 1}
+  m_LocalPosition: {x: 14.6, y: -3.39, z: 0}
+  m_LocalScale: {x: 53.69, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2669,7 +2669,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flecha: {fileID: 7249772115589109199, guid: ba5ce0a82a5fa864b87c6ba80b434702, type: 3}
-  fuerza: 15
+  fuerza: 18
   arco: {fileID: 791895010}
 --- !u!1 &815568664
 GameObject:
