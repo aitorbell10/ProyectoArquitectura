@@ -38,20 +38,21 @@ public class LanzamientoFlecha1 : MonoBehaviour
 
     public void Shoot()
     {
+        Debug.Log("Hello");
         GameObject Arcozeta = Instantiate(flecha, transform.position, transform.rotation);
         Arcozeta.GetComponent<Rigidbody2D>().velocity = transform.right * fuerza;
     }
 
-    private void FixedUpdate()
-    {
-        GameObject b = Pool.singleton.Get("Flecha");
-        //Si la referencia está llena
-        if (b != null)
-        {
-            //Le aplico a la bala la misma posición que la nave
-            b.transform.position = this.transform.position;
-            //Activamos la bala en concreto
-            b.SetActive(true);
-        }
-    }
+    //private void FixedUpdate()
+    //{
+    //    GameObject b = Pool.singleton.Get("Flecha");
+    //    //Si la referencia está llena
+    //    if (b != null)
+    //    {
+    //        //Le aplico a la bala la misma posición que la nave
+    //        b.transform.position = this.transform.position;
+    //        //Activamos la bala en concreto
+    //        b.SetActive(true);
+    //    }
+    //}
 }
