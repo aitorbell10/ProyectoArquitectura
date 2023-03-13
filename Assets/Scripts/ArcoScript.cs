@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Script creado para conseguir el movimiento del arco, es decir, para que el arco siga la posición del ratón y rote orientado a él.
+/// </summary>
 public class ArcoScript : MonoBehaviour
 {
     public Vector2 direction;

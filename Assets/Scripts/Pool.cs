@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Script creado para conseguir un Object Pooling, es decir, poder hacer un array de objetos reutilizables, para poder usarlos cuando quieras.
+/// </summary>
 
 [System.Serializable] 
 public class PoolItem

@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Script creado conseguir la parábola que crea la flecha al ser disparada y caer al suelo.
+/// </summary>
 public class FlechaScript : MonoBehaviour
 {
     Rigidbody2D rb;

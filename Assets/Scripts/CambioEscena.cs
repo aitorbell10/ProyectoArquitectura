@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+/// <summary>
+/// Script creado para poder moverte entre escenas con el menu y la pantalla final.
+/// </summary>
 public class CambioEscena : MonoBehaviour
 {
     public void cambiarescena (string nombredeescena)

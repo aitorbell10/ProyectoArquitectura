@@ -2,7 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
+/// <summary>
+/// Script cuyo uso es crear mediante código cubos, llamado Prototype.
+/// </summary>
 public class ProEnemies : Object
 {
 

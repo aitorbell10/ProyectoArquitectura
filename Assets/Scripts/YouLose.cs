@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+/// <summary>
+/// Script usado para cambiar la escena a la de derrota cuando tu vida llega a 0, es decir, cuando acumulas las suficientes flechas mal tiradas para morir.
+/// </summary>
 public class YouLose : MonoBehaviour
 {
     public GameObject suelo;

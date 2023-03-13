@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Script creado para poder spawnear o instanciar los cubos que hemos creado en el ProEnemies de forma aleatoria como enemigos de nuestro videojuego.
+/// </summary>
 public class EnemieSpawner : MonoBehaviour
 {
     public float timeRespawnLife;
